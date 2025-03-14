@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="95" fill="#f1f1f1" stroke="#002868" stroke-width="2"/>
+  
+  <!-- Red and white stripes background for the shield -->
+  <g>
+    <path d="M100,40 L140,75 L140,130 L100,165 L60,130 L60,75 Z" fill="#fff" stroke="#002868" stroke-width="2"/>
+    <rect x="60" y="85" width="80" height="10" fill="#B22234"/>
+    <rect x="60" y="105" width="80" height="10" fill="#B22234"/>
+    <rect x="60" y="125" width="80" height="10" fill="#B22234"/>
+    <rect x="60" y="145" width="80" height="10" fill="#B22234"/>
+  </g>
+  
+  <!-- Blue chief of the shield -->
+  <path d="M100,40 L140,75 L60,75 Z" fill="#002868"/>
+  
+  <!-- Stars on the blue chief -->
+  <g fill="#fff">
+    <circle cx="80" cy="60" r="3"/>
+    <circle cx="100" cy="60" r="3"/>
+    <circle cx="120" cy="60" r="3"/>
+    <circle cx="90" cy="50" r="3"/>
+    <circle cx="110" cy="50" r="3"/>
+    <circle cx="100" cy="40" r="3"/>
+  </g>
+  
+  <!-- Eagle silhouette -->
+  <path d="M100,85 C110,70 125,80 130,90 C135,100 130,110 120,115 C110,120 90,120 80,115 C70,110 65,100 70,90 C75,80 90,70 100,85 Z" fill="#002868"/>
+  
+  <!-- Olive branch (left) -->
+  <path d="M75,110 C65,105 60,95 65,90 C70,85 80,90 85,95 C88,98 90,100 92,102" fill="none" stroke="#006400" stroke-width="2"/>
+  <path d="M70,95 C65,92 63,88 68,85 C73,82 78,87 80,90" fill="none" stroke="#006400" stroke-width="2"/>
+  
+  <!-- Arrows (right) -->
+  <path d="M125,110 C135,105 140,95 135,90 C130,85 120,90 115,95" fill="none" stroke="#8B4513" stroke-width="2"/>
+  <line x1="130" y1="95" x2="125" y2="90" stroke="#8B4513" stroke-width="2"/>
+  <line x1="127" y1="98" x2="122" y2="93" stroke="#8B4513" stroke-width="2"/>
+  
+  <!-- Text around the seal -->
+  <text x="100" y="30" text-anchor="middle" font-family="serif" font-size="8" fill="#002868">THE GREAT SEAL</text>
+  <text x="100" y="180" text-anchor="middle" font-family="serif" font-size="8" fill="#002868">UNITED STATES OF AMERICA</text>
+</svg> 
